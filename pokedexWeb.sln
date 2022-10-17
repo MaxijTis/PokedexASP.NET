@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokedexWeb", "pokedexWeb\pokedexWeb.csproj", "{5B42958C-43EE-47C1-810A-C8D2E4709E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{7CF064A4-E8DA-4730-839E-01EDA1DDD24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{A518B9C7-E740-4B5D-AF51-B6489A0C0840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B42958C-43EE-47C1-810A-C8D2E4709E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B42958C-43EE-47C1-810A-C8D2E4709E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B42958C-43EE-47C1-810A-C8D2E4709E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B42958C-43EE-47C1-810A-C8D2E4709E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF064A4-E8DA-4730-839E-01EDA1DDD24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF064A4-E8DA-4730-839E-01EDA1DDD24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF064A4-E8DA-4730-839E-01EDA1DDD24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF064A4-E8DA-4730-839E-01EDA1DDD24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A518B9C7-E740-4B5D-AF51-B6489A0C0840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A518B9C7-E740-4B5D-AF51-B6489A0C0840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A518B9C7-E740-4B5D-AF51-B6489A0C0840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A518B9C7-E740-4B5D-AF51-B6489A0C0840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF618AB-C0CB-4D72-90B5-32B5AF655A2B}
+	EndGlobalSection
+EndGlobal

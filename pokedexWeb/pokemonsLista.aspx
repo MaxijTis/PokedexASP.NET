@@ -23,7 +23,7 @@
         <div class="col-3">
             <div class="mb-3">
                 <asp:Label Text="Campo" ID="dllCampo" runat="server" />
-                <asp:DropDownList runat="server" CssClass="form-control">
+                <asp:DropDownList runat="server" AutoPostBack="true" CssClass="form-control" ID="ddlCampo" OnSelectedIndexChanged="ddlCampo_SelectedIndexChanged">
                     <asp:ListItem Text="Nombre" />
                     <asp:ListItem Text="Tipo" />
                     <asp:ListItem Text="Número" />
@@ -39,8 +39,24 @@
         <div class="col-3">
             <div class="mb-3">
                 <asp:Label Text="Filtro" runat="server" />
-                <asp:TextBox ID="txtFiltroAvanzado" cssclass="Form-control" runat="server">
-                </asp:TextBox>
+                <asp:TextBox ID="txtFiltroAvanzado" CssClass="form-control" runat="server"/>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="mb-3">
+                <asp:Label Text="Estado" runat="server" />
+                <asp:DropDownList runat="server" ID="ddlEstado" CssClass="form-control">
+                    <asp:ListItem Text="Todos" />
+                    <asp:ListItem Text="Activo" />
+                    <asp:ListItem Text="Inactivo" />
+                </asp:DropDownList>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div class="mb-3">
+                <asp:Button Text="Buscar" runat="server" CssClass="btn btn-primary" Id="btnBuscar" OnClick="btnBuscar_Click" />
             </div>
         </div>
     </div>

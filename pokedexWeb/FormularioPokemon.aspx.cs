@@ -105,7 +105,6 @@ namespace pokedexWeb
             catch (Exception ex)
             {
                 Session.Add("Error", ex);
-                throw;
             }
 
         }
